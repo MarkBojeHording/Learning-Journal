@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.journey-text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+}
+
+header h1 {
+  color: #0E0E0E;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+}
+
+#header-btn {
+  display: flex;
+  gap: 0.1px;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 2%;
+}
+
+#header-btn button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  background-color: white;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-text {
+  color: #FFFFFF;
+  font-family: "Source Sans 3", serif;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 250px;
+  padding-left: 40px;
+
+}
+
+main {
+  background-image: url(images/main-photo.jpg);
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: flex-start;
+}
+
+.main-text h1,
+.main-text p {
+  line-height: 0.5
+}
