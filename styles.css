@@ -1,3 +1,26 @@
+html, body {
+  height: 100%; /* Ensures full height */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Pushes the footer to the bottom */
+}
+
+.footer {
+  background-color: #202020;
+  text-align: center;
+  font-size: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
 header {
   display: flex;
   align-items: left;
@@ -70,9 +93,43 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   justify-content: flex-start;
+  flex: 1;
 }
 
 .main-text h1,
 .main-text p {
   line-height: 0.5
+}
+
+.footer {
+  background-color: #202020;
+  text-align: center;
+  font-size: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer-content p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.footer-text1 {
+  color: #ECECEC;
+}
+
+.footer-text2 {
+  color: #D7D7D7;
 }
