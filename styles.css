@@ -202,3 +202,43 @@ main {
   font-weight: bold;
   font-size: 14px;
 }
+
+#journey-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+#journey-link:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+#main-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 95%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.journey-totext {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.recent-posts {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bootcamp-text {
+  margin: 0 auto;
+  width: 85%;
+}
