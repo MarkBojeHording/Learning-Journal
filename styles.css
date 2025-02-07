@@ -24,7 +24,7 @@ main {
 
 header {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   padding-right: 20px;
@@ -41,6 +41,15 @@ header {
 .journey-text {
   font-size: 40px;
   font-weight: bold;
+}
+
+#aboutme {
+  display: flex;
+  gap: 0.1px;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 2%;
+  text-decoration: none;
 }
 
 .icon {
