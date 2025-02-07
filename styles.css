@@ -251,3 +251,23 @@ main {
   margin: 0 auto;
   width: 85%;
 }
+
+.img-mark {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.mark-section {
+  display: flex;
+  align-items: center; /* Aligns image and text vertically */
+  justify-content: flex-start; /* Ensures image stays on the left */
+  gap: 2em; /* Space between image and text */
+  padding: 2em;
+}
+
+.mark-text {
+  display: flex;
+  flex-direction: row; /* Makes h1 and p appear in one line */
+  align-items: center; /* Ensures text aligns properly */
+  gap: 1em; /* Space between h1 and p */
+}
