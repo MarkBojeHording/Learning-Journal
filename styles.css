@@ -189,3 +189,16 @@ main {
   padding: 10px;
   height: 100%;
 }
+
+.view-more-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
