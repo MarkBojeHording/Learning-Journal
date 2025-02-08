@@ -259,15 +259,36 @@ main {
 
 .mark-section {
   display: flex;
-  align-items: center; /* Aligns image and text vertically */
-  justify-content: flex-start; /* Ensures image stays on the left */
-  gap: 2em; /* Space between image and text */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2em;
   padding: 2em;
 }
 
 .mark-text {
   display: flex;
-  flex-direction: row; /* Makes h1 and p appear in one line */
-  align-items: center; /* Ensures text aligns properly */
-  gap: 1em; /* Space between h1 and p */
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.extra-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.extra-content.show {
+  display: block;
+  opacity: 1;
+}
+
+.view-more-btn {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
 }
