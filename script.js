@@ -10,14 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const content = document.getElementById("extraContent");
   const viewMoreBtn = document.getElementById("viewMoreBtn");
 
-  // Ensure content is hidden and "View More" is visible on reload
   content.style.display = "none";
   content.classList.remove("show");
   if (viewMoreBtn) {
-      viewMoreBtn.style.display = "block"; // Ensure "View More" is visible
+      viewMoreBtn.style.display = "block";
   }
 
-  // Clear stored expansion state in localStorage
   localStorage.removeItem("viewMoreExpanded");
 });
 
@@ -29,7 +27,7 @@ function toggleContent() {
       content.style.display = "block";
       setTimeout(() => content.classList.add("show"), 10);
       if (viewMoreBtn) {
-          viewMoreBtn.style.display = "none"; // Hide the button after clicking
+          viewMoreBtn.style.display = "none";
       }
   }
 }
