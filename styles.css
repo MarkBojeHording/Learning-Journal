@@ -260,16 +260,18 @@ main {
 .mark-section {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 2em;
   padding: 2em;
 }
 
 .mark-text {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1em;
+  flex-direction: column;
+  text-align: left;
+}
+
+.mark-text h1 {
+  margin-bottom: 0.2em;
 }
 
 .extra-content {
@@ -291,4 +293,8 @@ main {
   display: block;
   text-align: center;
   margin-top: 10px;
+}
+
+.learning {
+  margin-left: 6em;
 }
